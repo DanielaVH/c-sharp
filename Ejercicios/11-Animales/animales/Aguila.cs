@@ -3,9 +3,9 @@ namespace animales
 {
     class Aguila : Aves 
     {
-       public bool VolarAlto { get; set; }
+       private bool VolarAlto { get; set; }
 
-       public bool PoseenGarras { get; set; }
+       private bool PoseenGarras { get; set; }
 
 
        public Aguila(string nombre, string colorPlumaje)
@@ -13,17 +13,26 @@ namespace animales
             Nombre = nombre;
             ColorPlumaje = colorPlumaje;
         }
-        public void metodoDeaguila()
+        public void MetodoDeaguila()
         {
             Comer = true;
             Vertebrados = true;
             Volar = true;
             TienenPico = true;
-            aguila();
-            
+         
+
+            Console.WriteLine("Nombre del aguila: " + Nombre);
+            Console.WriteLine("Color del Plumaje: " + ColorPlumaje);
+            Console.WriteLine("¿Puede comer? " + Comer);
+            Console.WriteLine("¿Es un animal vertebrado? " + Vertebrados);
+            Console.WriteLine("¿Este animal Puede volar? " + Volar);
+            Console.WriteLine("¿Tiene Pico? " + TienenPico);
+            CaracteristicasAguila();
+            Console.WriteLine("");
+           
         }
 
-        private void aguila()
+        private void CaracteristicasAguila()
         {
             VolarAlto = true;
             PoseenGarras = true;

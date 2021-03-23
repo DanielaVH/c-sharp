@@ -10,17 +10,26 @@ namespace animales
             Nombre = nombre;
             ColorPlumaje = colorPlumaje;
         }
-        public void metodoDeloro()
+        public void MetodoDeloro()
         {
             Comer = true;
             Vertebrados = true;
             Volar = true;
             TienenPico = true;
-            loro();
+        
             
+            Console.WriteLine("Nombre del Loro: " + Nombre);
+            Console.WriteLine("Color del Plumaje: " + ColorPlumaje);
+            Console.WriteLine("¿Pude comer? " + Comer);
+            Console.WriteLine("¿Es un animal vertebrado? " + Vertebrados);
+            Console.WriteLine("¿Puede volar? " + Volar);
+            Console.WriteLine("¿Puede hablar? " + Hablar);
+            Console.WriteLine("¿Tiene Pico?" + TienenPico);
+            CaracteristicasLoro();
+            Console.WriteLine("");
         }
 
-        private void loro()
+        private void CaracteristicasLoro()
         {
             Hablar = true;
     

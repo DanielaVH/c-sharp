@@ -18,9 +18,19 @@ namespace animales
             Comer = true;
             Nadar = true;
             TienenEscamas = true;
-            FuncionPezGlobo();
+
+            Console.WriteLine("Nombre del pez globo: " + Nombre);
+            Console.WriteLine("Cantidad de aletas: " + NumeroAletas);
+            Console.WriteLine("¿Es un animal vertebrado? " + Vertebrados);
+            Console.WriteLine("¿Puede comer? " + Comer);
+            Console.WriteLine("¿Puede Nadar? " + Nadar);
+            Console.WriteLine("¿Tiene escamas? " + TienenEscamas);
+            Console.WriteLine("¿Puede inflarse? " + Inflarse);
+            Console.WriteLine("¿Es toxico? " + SonToxicos);
+            Console.WriteLine("");
+            CaracteristicasPezGlobo();
         }
-         private void FuncionPezGlobo()
+         private void CaracteristicasPezGlobo()
         {
             Inflarse = true;
             SonToxicos =true;

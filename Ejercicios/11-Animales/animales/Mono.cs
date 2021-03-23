@@ -12,17 +12,28 @@ namespace animales
             Patas = patas;
         }
 
-        public void metodoDemono()
+        public void MetodoDemono()
         {
             Comer = true;
             Vertebrados = true;
             TienenPelaje = true;
             Caminar = true;
             Viviparos = true;
-            mono();
+           
+
+            Console.WriteLine("Nombre del mono: " + Nombre);
+            Console.WriteLine("Numero de patas: " + Patas);
+            Console.WriteLine("Puede comer? " + Comer);
+            Console.WriteLine("¿Es un animal vertebrado? " + Vertebrados);
+            Console.WriteLine("¿Tiene Pelaje? " + TienenPelaje);
+            Console.WriteLine("Puede caminar? " + Caminar);
+            Console.WriteLine("¿Es un animal Viviparo? " + Viviparos);
+            CaracteristicasMono();
+            Console.WriteLine("");
+            
         }
 
-        private void mono()
+        private void CaracteristicasMono()
         {
             Maullar = true;
             Omnivoros = true;

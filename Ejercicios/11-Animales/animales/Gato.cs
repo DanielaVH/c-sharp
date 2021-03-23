@@ -3,8 +3,8 @@ namespace animales
 {
     class Gato  : Mamiferos
     {
-      private bool Maullar { get; set; } 
-      private bool TienenBigote { get; set; }
+      public bool Maullar { get; set; } 
+      public bool TienenBigote { get; set; }
 
         
         public Gato(string nombre, int patas)

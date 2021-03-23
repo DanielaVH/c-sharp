@@ -3,9 +3,9 @@ namespace animales
 {
     class Aguila : Aves 
     {
-       private bool VolarAlto { get; set; }
+       public bool VolarAlto { get; set; }
 
-       private bool PoseenGarras { get; set; }
+       public bool PoseenGarras { get; set; }
 
 
        public Aguila(string nombre, string colorPlumaje)

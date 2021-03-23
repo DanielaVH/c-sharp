@@ -19,7 +19,8 @@ namespace animales
             Vertebrados = true;
             Volar = true;
             TienenPico = true;
-         
+            CaracteristicasAguila();
+
 
             Console.WriteLine("Nombre del aguila: " + Nombre);
             Console.WriteLine("Color del Plumaje: " + ColorPlumaje);
@@ -27,7 +28,6 @@ namespace animales
             Console.WriteLine("¿Es un animal vertebrado? " + Vertebrados);
             Console.WriteLine("¿Este animal Puede volar? " + Volar);
             Console.WriteLine("¿Tiene Pico? " + TienenPico);
-            CaracteristicasAguila();
             Console.WriteLine("");
            
         }

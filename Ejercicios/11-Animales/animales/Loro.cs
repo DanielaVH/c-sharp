@@ -16,6 +16,8 @@ namespace animales
             Vertebrados = true;
             Volar = true;
             TienenPico = true;
+            CaracteristicasLoro();
+
         
             
             Console.WriteLine("Nombre del Loro: " + Nombre);
@@ -25,7 +27,6 @@ namespace animales
             Console.WriteLine("¿Puede volar? " + Volar);
             Console.WriteLine("¿Puede hablar? " + Hablar);
             Console.WriteLine("¿Tiene Pico?" + TienenPico);
-            CaracteristicasLoro();
             Console.WriteLine("");
         }
 

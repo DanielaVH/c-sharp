@@ -19,8 +19,9 @@ namespace animales
             TienenPelaje = true;
             Caminar = true;
             Viviparos = true;
-           
+            CaracteristicasMono();
 
+           
             Console.WriteLine("Nombre del mono: " + Nombre);
             Console.WriteLine("Numero de patas: " + Patas);
             Console.WriteLine("Puede comer? " + Comer);
@@ -28,7 +29,6 @@ namespace animales
             Console.WriteLine("¿Tiene Pelaje? " + TienenPelaje);
             Console.WriteLine("Puede caminar? " + Caminar);
             Console.WriteLine("¿Es un animal Viviparo? " + Viviparos);
-            CaracteristicasMono();
             Console.WriteLine("");
             
         }

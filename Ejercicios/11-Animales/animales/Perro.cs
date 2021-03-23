@@ -19,8 +19,8 @@ namespace animales
             TienenPelaje = true;
             Caminar = true;
             Viviparos = true;
-            
-
+            CacteristicasPerro();
+        
             Console.WriteLine("Nombre perro: " + Nombre);
             Console.WriteLine("Cantidad de patas: " + Patas);
             Console.WriteLine("¿Puede comer? " + Comer);
@@ -30,7 +30,6 @@ namespace animales
             Console.WriteLine("¿Es un animal Viviparo? " + Viviparos);
             Console.WriteLine("¿Puede Ladrar? " + Ladrar);
             Console.WriteLine("¿Es una animal carnivoro? " + Carnivoro);
-            CacteristicasPerro();
             Console.WriteLine("");
           
         }

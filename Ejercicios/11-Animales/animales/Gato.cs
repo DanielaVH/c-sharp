@@ -20,6 +20,7 @@ namespace animales
             TienenPelaje = true;
             Caminar = true;
             Viviparos = true;
+            CaracteristicasGato();
 
             Console.WriteLine("Nombre del gato: " + Nombre);
             Console.WriteLine("Numero de patas: " + Patas);
@@ -30,7 +31,6 @@ namespace animales
             Console.WriteLine("¿Es viviparo? " + Viviparos);
             Console.WriteLine("¿Puede Maullar? " + Maullar);
             Console.WriteLine("¿Tiene Bigote? " + TienenBigote);
-            CaracteristicasGato();
             Console.WriteLine("");
            
         }

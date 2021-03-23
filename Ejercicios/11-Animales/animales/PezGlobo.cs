@@ -18,6 +18,8 @@ namespace animales
             Comer = true;
             Nadar = true;
             TienenEscamas = true;
+            CaracteristicasPezGlobo();
+
 
             Console.WriteLine("Nombre del pez globo: " + Nombre);
             Console.WriteLine("Cantidad de aletas: " + NumeroAletas);
@@ -28,7 +30,6 @@ namespace animales
             Console.WriteLine("¿Puede inflarse? " + Inflarse);
             Console.WriteLine("¿Es toxico? " + SonToxicos);
             Console.WriteLine("");
-            CaracteristicasPezGlobo();
         }
          private void CaracteristicasPezGlobo()
         {
